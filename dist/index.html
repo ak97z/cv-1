@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简历12.3</title>
+  </head>
+  <body>
+    <div id="demo"></div>
+    <style id="style"></style>
+    <div id="div1Wrapper">
+    <div id="div1"></div>
+    </div>
+
+    <style>*{
+            
+            margin: 0%;
+            top: 0%;
+            box-sizing: border-box;
+            }
+        *::after{box-sizing: border-box;}
+        *::before{box-sizing: border-box;}
+      #demo {
+        word-break: break-all;
+      }
+      #div1 {
+        /*太极图 */
+        position: fixed;
+        right: 50%;
+        top: 30px;
+      }
+
+      #div1::before {
+        position: absolute;
+        content: "";
+        display: block;
+      }
+      #div1::after {
+        position: absolute;
+        content: "";
+        display: block;
+      }
+      @media (max-width: 700px) {
+        #demo {
+          height: 50vh;
+          overflow: auto;
+        }
+        #div1Wrapper {
+          height: 50vh;
+        }
+
+        #div1 {
+          position: relative;
+          top: 0;
+          right: 0;
+        }
+      }</style>
+    <script src="/main.1f19ae8e.js"></script>
+  </body>
+</html>
